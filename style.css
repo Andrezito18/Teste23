@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin:  0;
+    padding: 0;
+}
+
+header{    
+    background-color: #13234E;;
+    color: white;
+    padding: 70px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+  
+    }
+
+
+.logo{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    padding: 10px; 
+
+}
+
+.linku{
+    font-size: x-large;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    padding: 60px; 
+    text-align: right;
+ 
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    text-align: right;
+}
+
+.sobrenos {
+     display: flex;
+     justify-content: space-between;
+     text-align: justify;
+             
+}
+.texto {
+  flex-basis: 45%;  
+  font-size: 150%;
+  margin-left: 45px;
+
+}
+
+.center { 
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.botão{
+    background-color: #13234E;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.bifão {
+    text-align: center;  
+    justify-content: space-between;
+    position: relative;
+    top: 700px;
+}     
+
+
+
+       
+
